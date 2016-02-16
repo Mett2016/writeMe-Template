@@ -30,13 +30,25 @@
           </div>
           <div class="list-group list-group-sm">
             <div class="list-group-item">
-              <input placeholder="Name" class="form-control no-border" ng-model="user.name" required>
+              <input placeholder="Nombre" class="form-control no-border" ng-model="user.name" required>
+            </div>
+              <div class="list-group-item">
+              <input placeholder="Apellido" class="form-control no-border" ng-model="user.lastName" required>
+            </div>
+              <div class="list-group-item">
+              <input placeholder="Nick" class="form-control no-border" ng-model="user.nickName" required>
             </div>
             <div class="list-group-item">
               <input type="email" placeholder="Email" class="form-control no-border" ng-model="user.email" required>
             </div>
             <div class="list-group-item">
+                <input type="date" class="form-control no-border" ng-model="user.dateBirth" required>
+             </div>
+            <div class="list-group-item">
                <input type="password" placeholder="Password" class="form-control no-border" ng-model="user.password" required>
+            </div>
+              <div class="list-group-item">
+               <input type="password" placeholder="Confirmar password" class="form-control no-border" ng-model="user.passwordConfirm" required>
             </div>
           </div>
           <div class="checkbox m-b-md m-t-none">
